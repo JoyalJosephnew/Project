@@ -3,20 +3,14 @@ variable "aws_region" {
   default     = "ap-south-1"
 }
 
-
-variable "ami" {
+variable "zone" {
    type        = string
-   default     = "ami-082b087bb5238cad8"
-}
-
-variable "instance_type" {
-   type        = string
-   default     = "t2.nano"
+   default     = "ap-south-1a"
 }
 
 variable "name_tag" {
    type        = string
-   default     = "instance-1"
+   default     = "ebs-1"
 }
 
 variable "aws_access_key" {
