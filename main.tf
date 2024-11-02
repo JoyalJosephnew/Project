@@ -1,9 +1,8 @@
-resource "aws_instance" "instance-1" {
- ami           = var.ami
- instance_type = var.instance_type
- count         = 1
+resource "aws_ebs_volume" "ebs-1" {
+  availability_zone = var.zone
+  size              = var.size
 
- tags = {
-   Name = var.name_tag,
- }
+  tags = {
+    Name = var.name_tag
+  }
 }
