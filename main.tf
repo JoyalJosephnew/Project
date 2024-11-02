@@ -4,6 +4,6 @@ resource "aws_instance" "instance-1" {
  count         = var.count
 
  tags = {
-   Name = var.name_tag,
+   Name = var.name_tag
  }
 }
