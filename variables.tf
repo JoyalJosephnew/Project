@@ -14,6 +14,11 @@ variable "instance_type" {
    default     = "t2.nano"
 }
 
+variable "count" {
+   type        = string
+   default     = "1"
+}
+
 variable "name_tag" {
    type        = string
    default     = "instance-1"
