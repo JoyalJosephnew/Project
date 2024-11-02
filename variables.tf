@@ -3,14 +3,19 @@ variable "aws_region" {
   default     = "ap-south-1"
 }
 
-variable "zone" {
+variable "device_name" {
    type        = string
-   default     = "ap-south-1a"
+   default     = "xvdf"
 }
 
-variable "name_tag" {
+variable "volume" {
    type        = string
-   default     = "ebs-1"
+   default     = ""
+}
+
+variable "instance" {
+   type        = string
+   default     = ""
 }
 
 variable "aws_access_key" {
