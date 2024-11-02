@@ -3,7 +3,6 @@ variable "aws_region" {
   default     = "ap-south-1"
 }
 
-
 variable "ami" {
    type        = string
    default     = "ami-082b087bb5238cad8"
@@ -12,11 +11,6 @@ variable "ami" {
 variable "instance_type" {
    type        = string
    default     = "t2.nano"
-}
-
-variable "count" {
-   type        = string
-   default     = "1"
 }
 
 variable "name_tag" {
