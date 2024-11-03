@@ -15,7 +15,7 @@ variable "volume" {
 
 variable "instance" {
    type        = string
-   default     = "i-0f587e0afd51dea23"
+   default     = "i-0e914ed79d0b5b708"
 }
 
 variable "aws_access_key" {
