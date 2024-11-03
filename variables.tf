@@ -17,9 +17,3 @@ variable "instance" {
    type        = string
    default     = "i-0e914ed79d0b5b708"
 }
-
-variable "aws_secret_key" {
-  type        = string
-  default     = ""
-}
-
