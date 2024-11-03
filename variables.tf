@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "volume" {
    type        = string
-   default     = ""
+   default     = "vol-04047b30cab7f2bd9"
 }
 
 variable "aws_access_key" {
