@@ -5,6 +5,11 @@ variable "aws_region" {
 
 variable "volume" {
    type        = string
-   default     = "vol-04047b30cab7f2bd9"
+   default     = "vol-09adecc5f97b4f6eb"
+}
+
+variable "snapshot" {
+   type        = string
+   default     = "snapshot-1"
 }
 
