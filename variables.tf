@@ -17,3 +17,8 @@ variable "snapshot" {
    type        = string
    default     = "snap-07027eef632ec555d"
 }
+
+variable "type" {
+   type        = string
+   default     = "gp3"
+}
