@@ -5,15 +5,15 @@ variable "aws_region" {
 
 variable "device_name" {
    type        = string
-   default     = "xvdf"
+   default     = "xvdb"
 }
 
 variable "volume" {
    type        = string
-   default     = "vol-04047b30cab7f2bd9"
+   default     = "vol-09adecc5f97b4f6eb"
 }
 
 variable "instance" {
    type        = string
-   default     = "i-0e914ed79d0b5b708"
+   default     = "i-0fe843b0970306fe2"
 }
