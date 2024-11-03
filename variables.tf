@@ -10,7 +10,7 @@ variable "zone" {
 
 variable "name_tag" {
    type        = string
-   default     = "ebs-2"
+   default     = "ebs-1"
 }
 
 variable "snapshot" {
