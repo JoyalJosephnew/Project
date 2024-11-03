@@ -10,10 +10,10 @@ variable "device_name" {
 
 variable "volume" {
    type        = string
-   default     = "vol-09adecc5f97b4f6eb"
+   default     = "vol-04e82babb8f69dbff"
 }
 
 variable "instance" {
    type        = string
-   default     = "i-0fe843b0970306fe2"
+   default     = "i-0de246bf58e8b536b"
 }
