@@ -10,12 +10,12 @@ variable "device_name" {
 
 variable "volume" {
    type        = string
-   default     = ""
+   default     = "vol-04047b30cab7f2bd9"
 }
 
 variable "instance" {
    type        = string
-   default     = ""
+   default     = "i-0f587e0afd51dea23"
 }
 
 variable "aws_access_key" {
