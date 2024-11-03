@@ -10,5 +10,10 @@ variable "zone" {
 
 variable "name_tag" {
    type        = string
-   default     = "ebs-1"
+   default     = "ebs-2"
+}
+
+variable "snapshot" {
+   type        = string
+   default     = "snap-07027eef632ec555d"
 }
