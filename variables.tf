@@ -18,3 +18,8 @@ variable "name_tag" {
    default     = "instance-1"
 }
 
+variable "key" {
+   type        = string
+   default     = "New"
+}
+
